@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        
+        <form class="form">
+          <input class="search" type="search" placeholder="Enter the city name" spellcheck="false">
+          <button class="submit" type="submit">Search</button>
+        </form>
+
+        <div class="weather">
+          <img class="weatherImg" src="images/rain.png" alt="">
+          <h2 class="temp">29 °C </h2>
+          <h3 class="city-name">Lucknow</h3>
+        </div>
+
+        <div class="extra-info">
+          
+          <div class="humidity">
+            <img src="images/humidity.png" alt="">
+            <div class="humidity-info">
+              <p class="humidity-value">53%</p>
+              <h6>Humidity</h6>
+            </div>
+          </div>
+          
+          <div class="wind">
+            <img src="images/wind.png" alt="" >
+            <div class="wind-info">
+              <p class="wind-value">5.66Km/H</p>
+              <h6>Wind</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html> 
